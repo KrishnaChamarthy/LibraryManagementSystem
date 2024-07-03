@@ -1,0 +1,43 @@
+.issued-books{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.issued-books .title{
+    font-size: 30px;
+    padding: 0;
+    margin: 10px 0;
+    text-transform: none;
+
+}
+.table{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.table-title{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+.table hr{
+    width: 100%;
+    align-self: center;
+    margin: 0;
+}
+
+.table-item{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.5fr 1.5fr;
+    overflow-wrap: normal;
+    align-items:center;
+    text-align: center;
+    margin: 10px 0;
+}

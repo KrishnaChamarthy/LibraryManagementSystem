@@ -1,0 +1,83 @@
+.navbar{
+    height: 9vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0 5% 0;
+    z-index: 20;
+}
+
+.dark{
+    background: linear-gradient(to bottom right, #B984FA, #7A306C);
+    transition: 0.5s;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+.left p{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.right{
+    width: 20%;
+    height: 100%;
+}
+
+.right ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 100%;
+    align-items: center;
+}
+.separator {
+    height: 60%;
+    width: 1px;
+    background-color:#B984FA;
+}
+
+.signup{
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid #FFF8E8;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #FFF8E8;
+}
+
+.signup:hover{
+    background-color: #FFF8E8;
+    color: #7A306C;
+}
+
+.right ul .btn{
+    cursor: pointer;
+}
+
+.right ul .btn:hover{
+   color: #FFF8E8;
+}

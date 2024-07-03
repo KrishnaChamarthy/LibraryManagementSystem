@@ -1,0 +1,118 @@
+.account{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #B984FA, #7A306C);
+    padding: 12vh 15vh 10vh;
+}
+
+.account .container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.account .container .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.heading p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B984FA;
+    background-color: #B984FA;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.heading button:hover{
+    background-color: #FCD581;
+    color: #B984FA;   
+}
+
+.container hr{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container .content{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.content-left{
+    flex: 0 0 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.content-left .avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar .name{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.avatar .email{
+    font-size: 16px;
+    color: rgb(0, 0, 0, 0.7)
+}
+
+.content-left ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.content-left ul li {
+    cursor: pointer;
+}
+
+.content-left ul .not-selected:hover{
+    color: #FCD581;
+}
+
+.content-left ul .selected{
+    color: #B984FA;
+    font-weight: 600;
+}
+
+.content-right{
+    flex: 1;
+}

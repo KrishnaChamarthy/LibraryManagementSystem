@@ -1,0 +1,37 @@
+.book-info-popup{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-info-container{
+    width: 40%;
+    color: #80808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+    animation: fadeIn 0.5s;
+    border-radius: 8px;
+}
+
+.book-info-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+
+}
+
+.book-info-title img{
+    width: 16px;
+    cursor: pointer;
+}
